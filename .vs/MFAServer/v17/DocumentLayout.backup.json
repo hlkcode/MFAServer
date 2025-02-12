@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\logic\\twofactorauthlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:logic\\twofactorauthlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\mfaserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:mfaserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|f:\\codes\\dotnet\\trials\\mfaserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{85DDC9BE-8B78-4BC4-B0EB-741B1592892F}|MFAServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -38,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T19:20:15.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MFAServer",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\MFAServer.csproj",
-              "RelativeDocumentMoniker": "MFAServer.csproj",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\MFAServer.csproj",
-              "RelativeToolTip": "MFAServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T17:05:49.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Data\\SeedData.cs",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Data\\SeedData.cs",
-              "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:00:06.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TwoFactorAuthLogic.cs",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Logic\\TwoFactorAuthLogic.cs",
-              "RelativeDocumentMoniker": "Logic\\TwoFactorAuthLogic.cs",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Logic\\TwoFactorAuthLogic.cs",
-              "RelativeToolTip": "Logic\\TwoFactorAuthLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:54:28.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAACAZmZmZmYSwC8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T11:58:38.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Models.cs",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Models.cs",
-              "RelativeDocumentMoniker": "Models.cs",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Models.cs",
-              "RelativeToolTip": "Models.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIAywCgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T11:56:44.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Codes\\Dotnet\\Trials\\MFAServer\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJwAAAAAMzMzMzMLwKUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T11:56:35.756Z",
+              "WhenOpened": "2025-02-12T22:10:34.523Z",
               "EditorCaption": ""
             }
           ]

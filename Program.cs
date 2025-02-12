@@ -115,7 +115,7 @@ try
                  });
     });
 
-    builder.Services.AddSingleton<TwoFactorAuthLogic>();
+    builder.Services.AddSingleton<TwoFactorAuthManager>();
 
     builder.Services.AddCors();
 

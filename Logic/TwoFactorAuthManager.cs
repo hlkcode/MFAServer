@@ -4,7 +4,7 @@ using QRCoder.Core;
 namespace MFAServer.Logic;
 
 
-public class TwoFactorAuthLogic
+public class TwoFactorAuthManager
 {
     public string GenerateSecretKey()
     {

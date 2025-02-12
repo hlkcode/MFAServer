@@ -16,18 +16,18 @@ namespace MFAServer.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly ILogger<AuthController> logger;
-    private readonly TwoFactorAuthLogic authLogic;
+    private readonly TwoFactorAuthManager authManager;
     private readonly UserManager<User> userManager;
     private readonly SignInManager<User> signInManager;
     private readonly RoleManager<Role> roleManager;
     private readonly IConfiguration config;
     private readonly ApplicationDbContext dbContext;
 
-    public AuthController(ILogger<AuthController> logger, TwoFactorAuthLogic twoFactorAuth, UserManager<User> userManager,
+    public AuthController(ILogger<AuthController> logger, TwoFactorAuthManager twoFactorManager, UserManager<User> userManager,
             SignInManager<User> signInManager, RoleManager<Role> roleManager, IConfiguration config, ApplicationDbContext dbContext)
     {
         this.logger = logger;
-        this.authLogic = twoFactorAuth;
+        this.authManager = twoFactorManager;
         this.userManager = userManager;
         this.signInManager = signInManager;
         this.roleManager = roleManager;
@@ -69,17 +69,17 @@ public class AuthController : ControllerBase
 
             // am auto enabling/starting 2FA step here, this could be done on a different api where/when user decide to enable it 
             // Generate a new secret key and save it in db
-            var key = authLogic.GenerateSecretKey();
+            var key = authManager.GenerateSecretKey();
             user.SecretKey = Utils.EncryptWithAES(key);
             user.UpdatedAt = DateTime.UtcNow;
             dbContext.Update(user);
             await dbContext.SaveChangesAsync(cancellation);
 
             // Generate QR code URI and image
-            var qrCodeUri = authLogic.GenerateQrCodeUri(key, user.Email);
+            var qrCodeUri = authManager.GenerateQrCodeUri(key, user.Email);
 
             // Get QR code image in Base64
-            var qrCodeImage = authLogic.GenerateQrCodeImage(qrCodeUri);
+            var qrCodeImage = authManager.GenerateQrCodeImage(qrCodeUri);
 
             // this is the idea returned data should u want to give users option to manually enter the details
             // but most system just use the QRCode
@@ -153,7 +153,7 @@ public class AuthController : ControllerBase
             var key = Utils.DecryptWithAES(user.SecretKey);
 
             // Validate the provided OTP code
-            var isValid = authLogic.ValidateOtpCode(key, dto.Code);
+            var isValid = authManager.ValidateOtpCode(key, dto.Code);
 
             if (!isValid)
                 return BadRequest(CallResult.Error("invalid or expired code"));
