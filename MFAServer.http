@@ -1,0 +1,6 @@
+@MFAServer_HostAddress = http://localhost:5215
+
+GET {{MFAServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

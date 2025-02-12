@@ -1,0 +1,6 @@
+useful links
+
+https://medium.com/@hasanmcse/2fa-authentication-with-google-authenticator-through-webapi-in-net8-26d805268f5a
+
+
+https://dev.to/chindara/implementing-multi-factor-authentication-mfa-in-net-applications-4j53
